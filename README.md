@@ -1,5 +1,7 @@
 # vmlease
 
+[![tests](https://github.com/decentralizeallengineering/vmlease/actions/workflows/tests.yml/badge.svg)](https://github.com/decentralizeallengineering/vmlease/actions/workflows/tests.yml) ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 Lease-based libvirt VM orchestration for AI-agent fleets. Python standard library only; it shells out to `virsh` through one small module.
 
 ## Purpose
