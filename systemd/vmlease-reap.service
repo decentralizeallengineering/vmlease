@@ -1,0 +1,7 @@
+[Unit]
+Description=Reclaim VMs whose vmlease leases expired
+
+[Service]
+Type=oneshot
+# Adjust the path if vmlease is installed elsewhere (pip install --user uses this one).
+ExecStart=%h/.local/bin/vmlease reap
